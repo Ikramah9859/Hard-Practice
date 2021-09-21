@@ -1,0 +1,54 @@
+s<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pseudo</title>
+	<style>
+		.myList li:nth-child(odd){
+			background-color: aqua;
+		}
+		.myList li:nth-child(even){
+			background-color: yellow;
+		}
+	
+		.myList li:first-child{
+			color: green;
+			font-weight: bold;
+		}
+		.myList li:last-child{
+			color: purple;
+			font-weight: bold;
+		}
+		.myForm input:focus{
+			color: deeppink;
+			width: 300px;
+		}
+		a:hover{
+			color: red;
+			font-weight: 300;
+		}
+		a:active{
+			color: black;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<a href="#">Click me</a>
+	
+	<ul class="myList">
+	<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+	</ul>
+	<form class="myForm">
+	<input type="text">
+	</form>
+</body>
+</html>
